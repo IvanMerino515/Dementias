@@ -24,3 +24,391 @@ margin-top: 0;
 margin-bottom: 0;
 
 }
+
+
+
+body{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 20px;
+background-color: #BEBAB7;
+cursor: url(../assets/images/cursor.png), auto;
+}
+
+@media screen and (width<768px){
+body{
+width: 100%;
+overflow-x: hidden!important;
+background-color: #222220;
+color: #BEBAB7;
+}}
+
+
+
+.firstlineGrid{
+display: flex;
+padding-left: 36px;
+padding-top: 41px;
+padding-bottom: 28px;
+}
+
+
+
+
+
+.second-line-grid{
+display: flex;
+padding-left: 36px;
+padding-top: 41px;
+padding-bottom: 28px;
+}
+@media screen and (width<768px){
+.second-line-grid{
+margin-top: -40px ;
+    }}
+
+
+
+.firstline{
+display: flex;
+gap: 24px;
+
+}
+
+@media screen and (width<768px){
+.firstline{
+flex-direction: column;
+}
+}
+
+.second-line{
+display: flex;
+gap: 24px;
+       
+}
+
+
+@media screen and (width<768px){
+.second-line{
+flex-direction: column; 
+}    
+}
+
+/* Tarjeta logo */
+
+.boxlogo{
+width: 396px;
+height: 507px;
+background-color: #222220;
+cursor: url(../assets/images/cursor-white.png), auto;
+
+}
+
+@media screen and (width<768px){
+.boxlogo{
+width: 375px;
+height: 300px;
+}}
+
+/* Revisar posición logo */
+.logo{
+position: relative;
+width: 370.109px;  
+padding-top: 20px;
+padding-left: 12px;
+padding-right:17px ;
+}
+
+@media screen and (width<768px){
+.logo{
+margin-top:40px
+
+}
+
+}
+
+.personal-data{
+display: flex;
+flex-direction: column;
+position: absolute;
+margin-top: -50px;
+font-family: "IBM Plex Mono";
+font-size: 14px;
+font-weight: 500;
+padding-left: 12px;
+color: #BEBAB7;
+
+}
+
+.url{
+position: absolute;
+margin-top: 120px;
+margin-left: 170px;
+color: #BEBAB7;
+font-family: "IBM Plex Mono";
+font-size: 16px;
+font-weight: 500;
+padding-left: 12px;
+}
+
+@media screen and (width<768px){
+.url{
+margin-top: 26px;
+
+}
+
+}
+
+.url::after{
+content: "";
+position: inherit;
+width: 157px;
+height: 1px;
+margin-top: 10px;
+margin-left: -343px;
+background-color: #BEBAB7;
+}
+
+.social{
+display: flex;
+flex-direction: column;
+margin-top: 230px;
+padding-left: 12px;
+color: #BEBAB7;
+font-family: "IBM Plex Mono";
+font-size: 16px;
+line-height: 2;
+
+}
+
+@media screen and (width<768px){
+.social{
+position: absolute;
+width:100%;
+flex-direction: row; 
+align-items: center;
+justify-content: space-around; 
+margin-top:-260px;
+margin-left: px;
+padding:18px;
+background-color:#FFC48D;
+color: #222220;
+} 
+}
+
+/* Fin tarjeta logo */
+
+.box{
+width: 416px;
+border-bottom: 1px #222220 solid;
+overflow-x: hidden!important;
+
+padding-left: 10px;
+padding-right: 10px;
+
+}
+
+@media screen and (width<768px){
+.box{
+display: flex;
+width: 375px;
+border-bottom: 1px #BEBAB7 solid;
+border-top: 1px #BEBAB7 solid; 
+
+}
+}
+
+.image{
+width: 396px;
+height: 253px;
+background-image: url(../assets/images/coronel-kurtz.png);
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center, bottom;
+width: 396px;
+}
+
+@media screen and (width<768px){
+.image{
+display: none;    
+}  
+}
+
+
+
+.number-readmore{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+padding-top: 24px;
+padding-left: 12px;
+padding-right: 12px;
+width: 396px;
+align-content: space-between ;
+
+}
+
+
+
+
+
+
+.number{
+font-family: "Kode Mono";
+font-size: 36px;
+color: #222220;
+font-weight: 700;
+
+}
+
+@media screen and (width<768px){
+    .number{
+    color: #BEBAB7;
+    position: relative;
+}}
+
+
+.read-moore{
+font-family: "IBM Plex Mono";
+font-size: 16px;
+font-weight: 500;
+color: #222220;
+}
+
+@media screen and (width<768px){
+.read-moore{
+display: none;
+
+}
+
+}
+
+.title{
+font-family: "IBM Plex Mono";
+padding-left: 12px;
+font-size: 24px;
+font-weight: 500;
+line-height: 30px;
+color: #222220;
+}
+
+@media screen and (width<768px){
+.title{
+color: #BEBAB7;
+display: flex;
+width: 100vh;
+align-content: center;
+justify-content: left;
+margin-right: 0px;
+padding: 0px;
+font-size: 16px;
+line-height: 1;
+
+}}
+
+.text{
+padding-left: 12px;
+padding-right: 12px;
+font-family: "IBM Plex Mono";
+font-size: 14px;
+font-weight: 300;
+line-height: 130.046%;
+
+}
+
+@media screen and (width<768px){
+.text{
+display: none;
+
+
+}}
+
+.image2{
+    width: 396px;
+    height: 253px;
+    background-image: url(../assets/images/la-soledaad-en-la-translacion.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center, bottom;
+    width: 396px;
+}
+
+.image3{
+    width: 396px;
+    height: 253px;
+    background-image: url(../assets/images/john-ford.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center, bottom;
+    width: 396px;   
+}
+
+.image4{
+    width: 396px;
+    height: 253px;
+    background-image: url(../assets/images/bukowski.jpg);
+    background-repeat: repeat;
+    background-size:cover;
+    background-position: top, center;
+      
+}
+.image5{
+    width: 396px;
+    height: 253px;
+    background-image: url(../assets/images/inherent-vice.jpg);
+    background-repeat: repeat;
+    background-size:cover;
+    background-position: top, center;
+    width: 396px;    
+}
+
+
+
+.image6{
+    width: 396px;
+    height: 253px;
+    background-image: url(../assets/images/osees.jpg);
+    background-repeat: repeat;
+    background-size:cover;
+    background-position: top, center;
+    width: 396px;    
+}
+
+.image7{
+    width: 396px;
+    height: 253px;
+    background-image: url(../assets/images/ekkimukk.jpg);
+    background-repeat: repeat;
+    background-size:cover;
+    background-position: top, center;
+    width: 396px;    
+}
+
+@media screen and (width<768px){
+.image2{
+display: none;
+}}
+@media screen and (width<768px){
+.image3{
+display: none;
+}}
+@media screen and (width<768px){
+.image4{
+display: none;
+}}
+@media screen and (width<768px){
+.image5{
+ display: none;
+}}
+@media screen and (width<768px){
+.image6{
+display: none;
+}}
+@media screen and (width<768px){
+.image7{
+display: none;
+}}
+
+
